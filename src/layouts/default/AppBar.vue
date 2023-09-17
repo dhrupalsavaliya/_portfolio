@@ -10,15 +10,14 @@
 
       <div class="d-flex justify-center align-center">
         <v-icon>mdi-home</v-icon>
-        <a href="#home" class="ml-2" v-if="route === '/'">Home</a>
-        <router-link to="/" class="ml-2" v-else>Home</router-link>
+        <a href="#home" class="ml-2">Home</a>
       </div>
 
       <v-spacer></v-spacer>
 
       <div class="d-flex justify-center align-center">
         <v-icon>mdi-rocket</v-icon>
-        <router-link to="/start-up" class="ml-2">SSIP</router-link>
+        <a href="#" class="ml-2">SSIP</a>
       </div>
 
       <v-spacer class="contact"></v-spacer>
